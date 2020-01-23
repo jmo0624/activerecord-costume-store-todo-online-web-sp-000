@@ -6,5 +6,7 @@ class CreateCostumeStore < ActiveRecord::Migration[5.1]
     create_table :costume_stores do |t|
       t.string :name
       t.string :location
-      t.integer :
+      t.integer :costume_inventory
+      t.integer :number_of_employees
+      t.string
 end
